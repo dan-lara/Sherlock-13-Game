@@ -14,21 +14,20 @@ server:
 	$(CC) -o build/server server_v1.c 
 	@echo "Server built successfully."
 
-
-run_all : all
-	@echo "Running server and client..."
-	@cd build && ./server &
-	@cd build && ./client
-	@echo "Server and client are running."
+# Default port for the server
+SPort ?= 8000
+SIP ?= 127.0.0.1
+CIP ?= 127.0.0.1
+CPort ?= 8001
 
 run_client : all
-	@echo "Running client..."
-	@cd build && ./client
+	@echo "Running client with CPort=$(word 2, $(MAKECMDGOALS)) and PlayerName=$(word 3, $(MAKECMDGOALS))..."
+	@cd build && ./client $(SIP) $(SPort) $(CIP) $(word 2, $(MAKECMDGOALS)) $(word 3, $(MAKECMDGOALS))
 	@echo "Client is running."
 
 run_server : all
-	@echo "Running server..."
-	@cd build && ./server
+	@echo "Running server on IP $(SIP) and port $(wordlist 2, 2, $(MAKECMDGOALS))..."
+	@cd build && ./server $(SIP) $(wordlist 2, 2, $(MAKECMDGOALS))
 	@echo "Server is running."
 
 help:
