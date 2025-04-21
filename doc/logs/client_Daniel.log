@@ -1,0 +1,66 @@
+[2025-04-21 02:11:38] [INFO] Creation du thread serveur tcp !
+[2025-04-21 02:11:38] [DEBUG] |-->C localhost 40004 Daniel
+[2025-04-21 02:11:38] [DEBUG] <--|I 1 (Daniel)
+[2025-04-21 02:11:38] [INFO] The Daniel user ID is :1
+[2025-04-21 02:11:38] [DEBUG] <--|L Abgail Daniel - -
+[2025-04-21 02:11:42] [DEBUG] <--|L Abgail Daniel Charles -
+[2025-04-21 02:12:09] [DEBUG] <--|L Abgail Daniel Charles François
+[2025-04-21 02:12:10] [DEBUG] <--|D 10 12 6 (Mrs. Hudson, James Moriarty, inspector Hopkins)
+[2025-04-21 02:12:10] [DEBUG] <--|V 1 0 2 (Daniel, Sebastian Moran)
+[2025-04-21 02:12:10] [DEBUG] <--|V 1 1 1 (Daniel, irene Adler)
+[2025-04-21 02:12:10] [DEBUG] <--|V 1 2 0 (Daniel, inspector Lestrade)
+[2025-04-21 02:12:10] [DEBUG] <--|V 1 3 1 (Daniel, inspector Gregson)
+[2025-04-21 02:12:10] [DEBUG] <--|V 1 4 0 (Daniel, inspector Baynes)
+[2025-04-21 02:12:10] [DEBUG] <--|V 1 5 1 (Daniel, inspector Bradstreet)
+[2025-04-21 02:12:10] [DEBUG] <--|V 1 6 1 (Daniel, inspector Hopkins)
+[2025-04-21 02:12:11] [DEBUG] <--|V 1 7 1 (Daniel, Sherlock Holmes)
+[2025-04-21 02:12:13] [DEBUG] <--|M 0 (Abgail)
+[2025-04-21 02:12:34] [DEBUG] <--|M 1 (Daniel)
+[2025-04-21 02:13:06] [INFO] Played! joueur=-1 objet=2 guilt=-1
+[2025-04-21 02:13:06] [DEBUG] |-->O 1 2 (Daniel, inspector Lestrade)
+[2025-04-21 02:13:06] [DEBUG] <--|V 0 2 100 (Abgail, inspector Lestrade)
+[2025-04-21 02:13:06] [DEBUG] <--|V 2 2 100 (Charles, inspector Lestrade)
+[2025-04-21 02:13:06] [DEBUG] <--|V 3 2 100 (François, inspector Lestrade)
+[2025-04-21 02:13:06] [DEBUG] <--|M 2 (Charles)
+[2025-04-21 02:13:16] [DEBUG] <--|E 2 4 (Charles, inspector Baynes)
+[2025-04-21 02:13:16] [INFO] Charles is eliminated! inspector Baynes wasn't guilty!
+[2025-04-21 02:13:16] [DEBUG] <--|M 3 (François)
+[2025-04-21 02:13:53] [DEBUG] <--|W 3 9 (François, Mycroft Holmes)
+[2025-04-21 02:13:53] [INFO] Dear Daniel, You lose!    The guilty person was Mycroft Holmes!     Winner : François
+[2025-04-21 02:13:53] [INFO] =============End of the game=============
+[2025-04-21 02:14:05] [DEBUG] <--|R 3 (François)
+[2025-04-21 02:14:18] [DEBUG] |-->R 1
+[2025-04-21 02:14:18] [DEBUG] <--|R 1 (Daniel)
+[2025-04-21 02:14:27] [DEBUG] <--|R 2 (Charles)
+[2025-04-21 02:14:31] [DEBUG] <--|R 0 (Abgail)
+[2025-04-21 02:14:32] [DEBUG] <--|D 1 12 10 (irene Adler, James Moriarty, Mrs. Hudson)
+[2025-04-21 02:14:32] [DEBUG] <--|V 1 0 1 (Daniel, Sebastian Moran)
+[2025-04-21 02:14:32] [DEBUG] <--|V 1 1 2 (Daniel, irene Adler)
+[2025-04-21 02:14:32] [DEBUG] <--|V 1 2 0 (Daniel, inspector Lestrade)
+[2025-04-21 02:14:32] [DEBUG] <--|V 1 3 0 (Daniel, inspector Gregson)
+[2025-04-21 02:14:32] [DEBUG] <--|V 1 4 0 (Daniel, inspector Baynes)
+[2025-04-21 02:14:33] [DEBUG] <--|V 1 5 2 (Daniel, inspector Bradstreet)
+[2025-04-21 02:14:33] [DEBUG] <--|V 1 6 0 (Daniel, inspector Hopkins)
+[2025-04-21 02:14:33] [DEBUG] <--|V 1 7 2 (Daniel, Sherlock Holmes)
+[2025-04-21 02:14:35] [DEBUG] <--|M 0 (Abgail)
+[2025-04-21 02:14:56] [DEBUG] <--|W 0 7 (Abgail, Sherlock Holmes)
+[2025-04-21 02:14:56] [INFO] Dear Daniel, You lose!    The guilty person was Sherlock Holmes!     Winner : Abgail
+[2025-04-21 02:14:56] [INFO] =============End of the game=============
+[2025-04-21 02:14:57] [DEBUG] <--|R 0 (Abgail)
+[2025-04-21 02:14:59] [DEBUG] <--|R 2 (Charles)
+[2025-04-21 02:15:01] [DEBUG] <--|R 3 (François)
+[2025-04-21 02:15:04] [DEBUG] |-->R 1
+[2025-04-21 02:15:04] [DEBUG] <--|R 1 (Daniel)
+[2025-04-21 02:15:05] [DEBUG] <--|D 0 12 7 (Sebastian Moran, James Moriarty, Sherlock Holmes)
+[2025-04-21 02:15:05] [DEBUG] <--|V 1 0 1 (Daniel, Sebastian Moran)
+[2025-04-21 02:15:05] [DEBUG] <--|V 1 1 2 (Daniel, irene Adler)
+[2025-04-21 02:15:05] [DEBUG] <--|V 1 2 2 (Daniel, inspector Lestrade)
+[2025-04-21 02:15:05] [DEBUG] <--|V 1 3 0 (Daniel, inspector Gregson)
+[2025-04-21 02:15:05] [DEBUG] <--|V 1 4 0 (Daniel, inspector Baynes)
+[2025-04-21 02:15:05] [DEBUG] <--|V 1 5 0 (Daniel, inspector Bradstreet)
+[2025-04-21 02:15:06] [DEBUG] <--|V 1 6 0 (Daniel, inspector Hopkins)
+[2025-04-21 02:15:06] [DEBUG] <--|V 1 7 2 (Daniel, Sherlock Holmes)
+[2025-04-21 02:15:08] [DEBUG] <--|M 0 (Abgail)
+[2025-04-21 02:15:12] [DEBUG] <--|W 0 4 (Abgail, inspector Baynes)
+[2025-04-21 02:15:12] [INFO] Dear Daniel, You lose!    The guilty person was inspector Baynes!     Winner : Abgail
+[2025-04-21 02:15:12] [INFO] =============End of the game=============

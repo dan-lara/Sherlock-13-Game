@@ -8,5 +8,8 @@
 # Build folder
 build/
 
+# Log files
+src/*.log
+
 #vscode
 .vscode/

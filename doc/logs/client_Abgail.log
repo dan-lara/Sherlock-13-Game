@@ -1,0 +1,72 @@
+[2025-04-21 02:11:35] [INFO] Creation du thread serveur tcp !
+[2025-04-21 02:11:35] [DEBUG] |-->C localhost 40000 Abgail
+[2025-04-21 02:11:35] [DEBUG] <--|I 0 (Abgail)
+[2025-04-21 02:11:35] [INFO] The Abgail user ID is :0
+[2025-04-21 02:11:35] [DEBUG] <--|L Abgail - - -
+[2025-04-21 02:11:38] [DEBUG] <--|L Abgail Daniel - -
+[2025-04-21 02:11:42] [DEBUG] <--|L Abgail Daniel Charles -
+[2025-04-21 02:12:09] [DEBUG] <--|L Abgail Daniel Charles François
+[2025-04-21 02:12:09] [DEBUG] <--|D 8 0 1 (John Watson, Sebastian Moran, irene Adler)
+[2025-04-21 02:12:09] [DEBUG] <--|V 0 0 1 (Abgail, Sebastian Moran)
+[2025-04-21 02:12:09] [DEBUG] <--|V 0 1 1 (Abgail, irene Adler)
+[2025-04-21 02:12:09] [DEBUG] <--|V 0 2 2 (Abgail, inspector Lestrade)
+[2025-04-21 02:12:09] [DEBUG] <--|V 0 3 0 (Abgail, inspector Gregson)
+[2025-04-21 02:12:09] [DEBUG] <--|V 0 4 0 (Abgail, inspector Baynes)
+[2025-04-21 02:12:09] [DEBUG] <--|V 0 5 1 (Abgail, inspector Bradstreet)
+[2025-04-21 02:12:10] [DEBUG] <--|V 0 6 1 (Abgail, inspector Hopkins)
+[2025-04-21 02:12:10] [DEBUG] <--|V 0 7 2 (Abgail, Sherlock Holmes)
+[2025-04-21 02:12:13] [DEBUG] <--|M 0 (Abgail)
+[2025-04-21 02:12:34] [INFO] Played! joueur=2 objet=4 guilt=-1
+[2025-04-21 02:12:34] [DEBUG] |-->S 0 2 4 (Abgail, inspector Lestrade)
+[2025-04-21 02:12:34] [DEBUG] <--|V 2 4 1 (Charles, inspector Baynes)
+[2025-04-21 02:12:34] [DEBUG] <--|M 1 (Daniel)
+[2025-04-21 02:13:06] [DEBUG] <--|M 2 (Charles)
+[2025-04-21 02:13:16] [DEBUG] <--|E 2 4 (Charles, inspector Baynes)
+[2025-04-21 02:13:16] [INFO] Charles is eliminated! inspector Baynes wasn't guilty!
+[2025-04-21 02:13:16] [DEBUG] <--|M 3 (François)
+[2025-04-21 02:13:53] [DEBUG] <--|W 3 9 (François, Mycroft Holmes)
+[2025-04-21 02:13:53] [INFO] Dear Abgail, You lose!    The guilty person was Mycroft Holmes!     Winner : François
+[2025-04-21 02:13:53] [INFO] =============End of the game=============
+[2025-04-21 02:14:05] [DEBUG] <--|R 3 (François)
+[2025-04-21 02:14:18] [DEBUG] <--|R 1 (Daniel)
+[2025-04-21 02:14:27] [DEBUG] <--|R 2 (Charles)
+[2025-04-21 02:14:31] [DEBUG] |-->R 0
+[2025-04-21 02:14:31] [DEBUG] <--|R 0 (Abgail)
+[2025-04-21 02:14:31] [DEBUG] <--|D 4 8 5 (inspector Baynes, John Watson, inspector Bradstreet)
+[2025-04-21 02:14:31] [DEBUG] <--|V 0 0 1 (Abgail, Sebastian Moran)
+[2025-04-21 02:14:31] [DEBUG] <--|V 0 1 1 (Abgail, irene Adler)
+[2025-04-21 02:14:31] [DEBUG] <--|V 0 2 2 (Abgail, inspector Lestrade)
+[2025-04-21 02:14:31] [DEBUG] <--|V 0 3 2 (Abgail, inspector Gregson)
+[2025-04-21 02:14:31] [DEBUG] <--|V 0 4 0 (Abgail, inspector Baynes)
+[2025-04-21 02:14:32] [DEBUG] <--|V 0 5 0 (Abgail, inspector Bradstreet)
+[2025-04-21 02:14:32] [DEBUG] <--|V 0 6 1 (Abgail, inspector Hopkins)
+[2025-04-21 02:14:32] [DEBUG] <--|V 0 7 0 (Abgail, Sherlock Holmes)
+[2025-04-21 02:14:35] [DEBUG] <--|M 0 (Abgail)
+[2025-04-21 02:14:41] [INFO] Played! joueur=-1 objet=-1 guilt=-1
+[2025-04-21 02:14:41] [INFO] Played! joueur=-1 objet=-1 guilt=-1
+[2025-04-21 02:14:43] [INFO] Played! joueur=-1 objet=-1 guilt=-1
+[2025-04-21 02:14:56] [INFO] Played! joueur=-1 objet=-1 guilt=7
+[2025-04-21 02:14:56] [DEBUG] |-->G 0 7 (Abgail, Sherlock Holmes)
+[2025-04-21 02:14:56] [DEBUG] <--|W 0 7 (Abgail, Sherlock Holmes)
+[2025-04-21 02:14:56] [INFO] Dear Abgail, You win!     The guilty person was Sherlock Holmes!
+[2025-04-21 02:14:56] [INFO] =============End of the game=============
+[2025-04-21 02:14:57] [DEBUG] |-->R 0
+[2025-04-21 02:14:57] [DEBUG] <--|R 0 (Abgail)
+[2025-04-21 02:14:59] [DEBUG] <--|R 2 (Charles)
+[2025-04-21 02:15:01] [DEBUG] <--|R 3 (François)
+[2025-04-21 02:15:04] [DEBUG] <--|R 1 (Daniel)
+[2025-04-21 02:15:04] [DEBUG] <--|D 3 10 9 (inspector Gregson, Mrs. Hudson, Mycroft Holmes)
+[2025-04-21 02:15:04] [DEBUG] <--|V 0 0 2 (Abgail, Sebastian Moran)
+[2025-04-21 02:15:04] [DEBUG] <--|V 0 1 1 (Abgail, irene Adler)
+[2025-04-21 02:15:04] [DEBUG] <--|V 0 2 1 (Abgail, inspector Lestrade)
+[2025-04-21 02:15:04] [DEBUG] <--|V 0 3 1 (Abgail, inspector Gregson)
+[2025-04-21 02:15:04] [DEBUG] <--|V 0 4 2 (Abgail, inspector Baynes)
+[2025-04-21 02:15:05] [DEBUG] <--|V 0 5 1 (Abgail, inspector Bradstreet)
+[2025-04-21 02:15:05] [DEBUG] <--|V 0 6 0 (Abgail, inspector Hopkins)
+[2025-04-21 02:15:05] [DEBUG] <--|V 0 7 0 (Abgail, Sherlock Holmes)
+[2025-04-21 02:15:08] [DEBUG] <--|M 0 (Abgail)
+[2025-04-21 02:15:12] [INFO] Played! joueur=-1 objet=-1 guilt=4
+[2025-04-21 02:15:12] [DEBUG] |-->G 0 4 (Abgail, inspector Baynes)
+[2025-04-21 02:15:12] [DEBUG] <--|W 0 4 (Abgail, inspector Baynes)
+[2025-04-21 02:15:12] [INFO] Dear Abgail, You win!     The guilty person was inspector Baynes!
+[2025-04-21 02:15:12] [INFO] =============End of the game=============

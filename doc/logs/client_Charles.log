@@ -1,0 +1,62 @@
+[2025-04-21 02:11:41] [INFO] Creation du thread serveur tcp !
+[2025-04-21 02:11:42] [DEBUG] |-->C localhost 40003 Charles
+[2025-04-21 02:11:42] [DEBUG] <--|I 2 (Charles)
+[2025-04-21 02:11:42] [INFO] The Charles user ID is :2
+[2025-04-21 02:11:42] [DEBUG] <--|L Abgail Daniel Charles -
+[2025-04-21 02:12:09] [DEBUG] <--|L Abgail Daniel Charles François
+[2025-04-21 02:12:11] [DEBUG] <--|D 2 5 7 (inspector Lestrade, inspector Bradstreet, Sherlock Holmes)
+[2025-04-21 02:12:11] [DEBUG] <--|V 2 0 1 (Charles, Sebastian Moran)
+[2025-04-21 02:12:11] [DEBUG] <--|V 2 1 1 (Charles, irene Adler)
+[2025-04-21 02:12:11] [DEBUG] <--|V 2 2 2 (Charles, inspector Lestrade)
+[2025-04-21 02:12:11] [DEBUG] <--|V 2 3 2 (Charles, inspector Gregson)
+[2025-04-21 02:12:11] [DEBUG] <--|V 2 4 1 (Charles, inspector Baynes)
+[2025-04-21 02:12:11] [DEBUG] <--|V 2 5 0 (Charles, inspector Bradstreet)
+[2025-04-21 02:12:12] [DEBUG] <--|V 2 6 1 (Charles, inspector Hopkins)
+[2025-04-21 02:12:12] [DEBUG] <--|V 2 7 0 (Charles, Sherlock Holmes)
+[2025-04-21 02:12:13] [DEBUG] <--|M 0 (Abgail)
+[2025-04-21 02:12:34] [DEBUG] <--|M 1 (Daniel)
+[2025-04-21 02:13:06] [DEBUG] <--|M 2 (Charles)
+[2025-04-21 02:13:16] [INFO] Played! joueur=-1 objet=-1 guilt=4
+[2025-04-21 02:13:16] [DEBUG] |-->G 2 4 (Charles, inspector Baynes)
+[2025-04-21 02:13:16] [DEBUG] <--|E 2 4 (Charles, inspector Baynes)
+[2025-04-21 02:13:16] [INFO] Dear Charles, You are eliminated! inspector Baynes wasn't guilty!
+[2025-04-21 02:13:16] [DEBUG] <--|M 3 (François)
+[2025-04-21 02:13:53] [DEBUG] <--|W 3 9 (François, Mycroft Holmes)
+[2025-04-21 02:13:53] [INFO] Dear Charles, You lose!    The guilty person was Mycroft Holmes!     Winner : François
+[2025-04-21 02:13:53] [INFO] =============End of the game=============
+[2025-04-21 02:14:05] [DEBUG] <--|R 3 (François)
+[2025-04-21 02:14:18] [DEBUG] <--|R 1 (Daniel)
+[2025-04-21 02:14:27] [DEBUG] |-->R 2
+[2025-04-21 02:14:27] [DEBUG] <--|R 2 (Charles)
+[2025-04-21 02:14:31] [DEBUG] <--|R 0 (Abgail)
+[2025-04-21 02:14:33] [DEBUG] <--|D 3 6 11 (inspector Gregson, inspector Hopkins, Mary Morstan)
+[2025-04-21 02:14:33] [DEBUG] <--|V 2 0 1 (Charles, Sebastian Moran)
+[2025-04-21 02:14:33] [DEBUG] <--|V 2 1 0 (Charles, irene Adler)
+[2025-04-21 02:14:33] [DEBUG] <--|V 2 2 1 (Charles, inspector Lestrade)
+[2025-04-21 02:14:33] [DEBUG] <--|V 2 3 2 (Charles, inspector Gregson)
+[2025-04-21 02:14:33] [DEBUG] <--|V 2 4 2 (Charles, inspector Baynes)
+[2025-04-21 02:14:34] [DEBUG] <--|V 2 5 1 (Charles, inspector Bradstreet)
+[2025-04-21 02:14:34] [DEBUG] <--|V 2 6 1 (Charles, inspector Hopkins)
+[2025-04-21 02:14:34] [DEBUG] <--|V 2 7 0 (Charles, Sherlock Holmes)
+[2025-04-21 02:14:35] [DEBUG] <--|M 0 (Abgail)
+[2025-04-21 02:14:56] [DEBUG] <--|W 0 7 (Abgail, Sherlock Holmes)
+[2025-04-21 02:14:56] [INFO] Dear Charles, You lose!    The guilty person was Sherlock Holmes!     Winner : Abgail
+[2025-04-21 02:14:56] [INFO] =============End of the game=============
+[2025-04-21 02:14:57] [DEBUG] <--|R 0 (Abgail)
+[2025-04-21 02:14:59] [DEBUG] |-->R 2
+[2025-04-21 02:14:59] [DEBUG] <--|R 2 (Charles)
+[2025-04-21 02:15:01] [DEBUG] <--|R 3 (François)
+[2025-04-21 02:15:04] [DEBUG] <--|R 1 (Daniel)
+[2025-04-21 02:15:06] [DEBUG] <--|D 8 11 5 (John Watson, Mary Morstan, inspector Bradstreet)
+[2025-04-21 02:15:06] [DEBUG] <--|V 2 0 1 (Charles, Sebastian Moran)
+[2025-04-21 02:15:06] [DEBUG] <--|V 2 1 0 (Charles, irene Adler)
+[2025-04-21 02:15:06] [DEBUG] <--|V 2 2 2 (Charles, inspector Lestrade)
+[2025-04-21 02:15:06] [DEBUG] <--|V 2 3 1 (Charles, inspector Gregson)
+[2025-04-21 02:15:06] [DEBUG] <--|V 2 4 1 (Charles, inspector Baynes)
+[2025-04-21 02:15:07] [DEBUG] <--|V 2 5 1 (Charles, inspector Bradstreet)
+[2025-04-21 02:15:07] [DEBUG] <--|V 2 6 1 (Charles, inspector Hopkins)
+[2025-04-21 02:15:07] [DEBUG] <--|V 2 7 0 (Charles, Sherlock Holmes)
+[2025-04-21 02:15:08] [DEBUG] <--|M 0 (Abgail)
+[2025-04-21 02:15:12] [DEBUG] <--|W 0 4 (Abgail, inspector Baynes)
+[2025-04-21 02:15:12] [INFO] Dear Charles, You lose!    The guilty person was inspector Baynes!     Winner : Abgail
+[2025-04-21 02:15:12] [INFO] =============End of the game=============
