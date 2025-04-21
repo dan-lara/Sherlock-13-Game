@@ -1,4 +1,4 @@
-# Sherlock 13 - Jeu en C pour 4 Joueurs
+# 🕵️‍♂️ Sherlock 13 - Implémentation en C pour 4 Joueurs online
 
 Bienvenue dans l'implémentation du jeu **Sherlock 13** en langage C, conçu pour 4 joueurs. Ce projet recrée l'expérience du jeu de société en mettant l'accent sur la logique et la déduction.
 
