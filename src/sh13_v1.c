@@ -47,7 +47,7 @@ int eliminated[4] = {0, 0, 0, 0};
 int gWinner = -1;
 int replayEnabled = 0;
 int nbReplay = 0;
-char msg[256];
+char msg[600];
 
 char *nbobjets[] = {"5", "5", "5", "5", "4", "3", "3", "3"};
 char *nbnoms[] = {"Sebastian Moran", "irene Adler", "inspector Lestrade",
@@ -235,7 +235,7 @@ int main(int argc, char **argv)
 	gClientPort = atoi(argv[4]);
 	strcpy(gName, argv[5]);
 	char log_filename[256];
-	sprintf(log_filename, "client_%s.log", gName);
+	snprintf(log_filename, sizeof(log_filename), "client_%.243s.log", gName);
 	init_logger(log_filename, 0);
 
 	SDL_Init(SDL_INIT_VIDEO);

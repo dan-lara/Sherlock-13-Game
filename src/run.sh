@@ -19,7 +19,7 @@ cd build
 gnome-terminal --tab -- bash -c "echo 'Starting server...'; ./server $SPORT; exec bash"
 
 # # Run clients in new terminal tabs without gdb
-# gnome-terminal -- bash -c "echo 'Starting client1...'; ./sh13 $SIP $SPORT $CIP $((CPORT_BASE + 1)) ${NAMES[0]} || { echo 'Client1 failed'; exit 1; }; exec bash"
-# gnome-terminal -- bash -c "echo 'Starting client2...'; ./sh13 $SIP $SPORT $CIP $((CPORT_BASE + 2)) ${NAMES[1]}; exec bash"
-# gnome-terminal -- bash -c "echo 'Starting client3...'; ./sh13 $SIP $SPORT $CIP $((CPORT_BASE + 3)) ${NAMES[2]}; exec bash"
-# gnome-terminal -- bash -c "echo 'Starting client4...'; ./sh13 $SIP $SPORT $CIP $((CPORT_BASE + 4)) ${NAMES[3]}; exec bash"
+# gnome-terminal -- bash -c "echo 'Starting client1...'; ./client $SIP $SPORT $CIP $((CPORT_BASE + 1)) ${NAMES[0]} || { echo 'Client1 failed'; exit 1; }; exec bash"
+# gnome-terminal -- bash -c "echo 'Starting client2...'; ./client $SIP $SPORT $CIP $((CPORT_BASE + 2)) ${NAMES[1]}; exec bash"
+# gnome-terminal -- bash -c "echo 'Starting client3...'; ./client $SIP $SPORT $CIP $((CPORT_BASE + 3)) ${NAMES[2]}; exec bash"
+# gnome-terminal -- bash -c "echo 'Starting client4...'; ./client $SIP $SPORT $CIP $((CPORT_BASE + 4)) ${NAMES[3]}; exec bash"
